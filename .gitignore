@@ -1,0 +1,9 @@
+#Archivos de sistema
+.DS_Store
+Thumbs.db
+
+#carpetas de entorno
+node_modules/
+__pycache__/
+.venv/
+.env
