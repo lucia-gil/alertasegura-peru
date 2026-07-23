@@ -80,7 +80,7 @@ que si regeneras `reportes_sucios.csv` te va a salir con más filas.
 
 El dataset sigue exactamente las entidades JPA que ya existen en el backend
 (`src/main/java/com/alertasegura/backend/model/`: `Usuario`, `Categoria`,
-`Reporte`), para que cuando el equipo de Desarrollo Web conecte la BD real
+`Reporte`), para que cuando el Willian conecte la BD real
 en el Sprint 2, el análisis migre sin fricción de CSV a datos reales con
 los mismos nombres de columna y tipos.
 
@@ -96,7 +96,7 @@ jupyter notebook notebooks/01_exploracion_inicial.ipynb
 
 ## Regenerar el dataset sintético
 
-El CSV ya está generado y commiteado, pero si quieres regenerarlo (más
+El CSV ya está generado y commiteado, pero si quieren regenerarlo (más
 registros, otra semilla, etc.):
 
 ```bash
