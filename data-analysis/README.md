@@ -25,6 +25,11 @@ avance del **Sprint 1**.
 - [x] Dashboard interactivo (Plotly Dash) → [`scripts/dashboard_app.py`](./scripts/dashboard_app.py)
 - [x] Opcional: cruce con datos públicos reales (INEI) → [`notebooks/05_cruce_datos_inei.ipynb`](./notebooks/05_cruce_datos_inei.ipynb)
 
+## Sprint 5 — checklist
+
+- [x] Dashboard pulido (se agregaron gráficos de hora/día y tendencia) y exportable → [`scripts/dashboard_app.py`](./scripts/dashboard_app.py), [`scripts/exportar_dashboard_estatico.py`](./scripts/exportar_dashboard_estatico.py)
+- [x] Resumen de insights en 1 página → [`insights_resumen.html`](./insights_resumen.html)
+
 ## Estructura
 
 ```
@@ -48,13 +53,19 @@ data-analysis/
 │   ├── resumen_zonas_riesgo.csv  # resumen por zona: n° reportes, puntaje, distrito/categoría principal
 │   ├── poblacion_distritos_lima.csv  # población real por distrito (INEI, con fuente citada)
 │   └── reportes_vs_poblacion.csv     # reportes crudos vs. tasa por cada 10k habitantes
-└── notebooks/
-    ├── 01_exploracion_inicial.ipynb
-    ├── 02_limpieza_y_estadisticas.ipynb
-    ├── 03_graficos_sprint3.ipynb
-    ├── 04_zonas_riesgo_kmeans.ipynb
-    └── 05_cruce_datos_inei.ipynb
+├── notebooks/
+│   ├── 01_exploracion_inicial.ipynb
+│   ├── 02_limpieza_y_estadisticas.ipynb
+│   ├── 03_graficos_sprint3.ipynb
+│   ├── 04_zonas_riesgo_kmeans.ipynb
+│   └── 05_cruce_datos_inei.ipynb
+├── insights_resumen.html         # resumen de 1 página (Sprint 5, para entrevistas)
+└── dashboard_estatico.html       # export estático del dashboard (sin servidor)
 ```
+
+`scripts/exportar_dashboard_estatico.py` genera `dashboard_estatico.html`
+en la raíz de `data-analysis/` — un solo archivo que se abre con doble
+clic, sin correr `python scripts/dashboard_app.py` ni instalar nada.
 
 Nota: `reportes_sucios.csv`/`reportes_limpios.csv` quedaron generados sobre
 la versión de 120 filas del dataset (Sprint 2); `reportes_sinteticos.csv`

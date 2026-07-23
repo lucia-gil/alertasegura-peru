@@ -87,8 +87,22 @@ app.layout = html.Div(
             ],
             className="fila-graficos",
         ),
+        html.Div(
+            [
+                dcc.Graph(id="grafico-hora-dia", className="grafico-mitad"),
+                dcc.Graph(id="grafico-tendencia", className="grafico-mitad"),
+            ],
+            className="fila-graficos",
+        ),
     ]
 )
+
+
+DIAS_ORDEN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+DIAS_ES = {
+    "Monday": "Lun", "Tuesday": "Mar", "Wednesday": "Mié", "Thursday": "Jue",
+    "Friday": "Vie", "Saturday": "Sáb", "Sunday": "Dom",
+}
 
 
 @app.callback(
@@ -96,6 +110,8 @@ app.layout = html.Div(
     Output("mapa", "figure"),
     Output("grafico-distrito", "figure"),
     Output("grafico-categoria", "figure"),
+    Output("grafico-hora-dia", "figure"),
+    Output("grafico-tendencia", "figure"),
     Input("filtro-categoria", "value"),
     Input("filtro-distrito", "value"),
     Input("filtro-estado", "value"),
@@ -141,7 +157,35 @@ def actualizar(categorias, distritos, estados):
         labels={"count": "N° de reportes", "categoria": ""},
     )
 
-    return kpis, mapa, grafico_distrito, grafico_categoria
+    # Incidentes por hora y día de la semana
+    df_tiempo = df.copy()
+    df_tiempo["hora"] = df_tiempo["created_at"].dt.hour
+    df_tiempo["dia"] = df_tiempo["created_at"].dt.day_name()
+    tabla_hora_dia = (
+        df_tiempo.groupby(["dia", "hora"]).size().reset_index(name="n_reportes")
+        if total else pd.DataFrame({"dia": [], "hora": [], "n_reportes": []})
+    )
+    grafico_hora_dia = px.density_heatmap(
+        tabla_hora_dia, x="hora", y="dia", z="n_reportes",
+        category_orders={"dia": DIAS_ORDEN},
+        color_continuous_scale="Reds",
+        title="Incidentes por hora y día de la semana",
+        labels={"hora": "Hora del día", "dia": "", "n_reportes": "N° de reportes"},
+    )
+    grafico_hora_dia.update_yaxes(ticktext=[DIAS_ES[d] for d in DIAS_ORDEN], tickvals=DIAS_ORDEN)
+
+    # Tendencia: reportes por semana
+    tendencia = (
+        df_tiempo.set_index("created_at").resample("W").size().reset_index(name="n_reportes")
+        if total else pd.DataFrame({"created_at": [], "n_reportes": []})
+    )
+    grafico_tendencia = px.line(
+        tendencia, x="created_at", y="n_reportes", markers=True,
+        title="Tendencia: reportes por semana",
+        labels={"created_at": "Semana", "n_reportes": "N° de reportes"},
+    )
+
+    return kpis, mapa, grafico_distrito, grafico_categoria, grafico_hora_dia, grafico_tendencia
 
 
 if __name__ == "__main__":
