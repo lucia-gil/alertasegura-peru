@@ -24,11 +24,15 @@ avance del **Sprint 1**.
 - [x] Modelo de zonas de riesgo (KMeans) → [`notebooks/04_zonas_riesgo_kmeans.ipynb`](./notebooks/04_zonas_riesgo_kmeans.ipynb)
 - [x] Dashboard interactivo (Plotly Dash) → [`scripts/dashboard_app.py`](./scripts/dashboard_app.py)
 - [x] Opcional: cruce con datos públicos reales (INEI) → [`notebooks/05_cruce_datos_inei.ipynb`](./notebooks/05_cruce_datos_inei.ipynb)
+<img width="1781" height="962" alt="image" src="https://github.com/user-attachments/assets/4e6b15ae-58ba-4af1-bf9d-c407ffcffb06" />
+
 
 ## Sprint 5 — checklist
 
 - [x] Dashboard pulido (se agregaron gráficos de hora/día y tendencia) y exportable → [`scripts/dashboard_app.py`](./scripts/dashboard_app.py), [`scripts/exportar_dashboard_estatico.py`](./scripts/exportar_dashboard_estatico.py)
 - [x] Resumen de insights en 1 página → [`insights_resumen.html`](./insights_resumen.html)
+<img width="1662" height="957" alt="image" src="https://github.com/user-attachments/assets/233779f2-df9b-47a1-97cc-232ecc373474" />
+
 
 ## Estructura
 
