@@ -73,14 +73,14 @@ clic, sin correr `python scripts/dashboard_app.py` ni instalar nada.
 
 Nota: `reportes_sucios.csv`/`reportes_limpios.csv` quedaron generados sobre
 la versión de 120 filas del dataset (Sprint 2); `reportes_sinteticos.csv`
-ahora tiene 220 filas (Sprint 3) — no afecta la lógica de limpieza, solo
-que si regeneras `reportes_sucios.csv` te va a salir con más filas.
+ahora tiene 220 filas (Sprint 3), no afecta la lógica de limpieza, solo
+que si regeneran `reportes_sucios.csv`  va a salir con más filas.
 
 ## Por qué este esquema
 
 El dataset sigue exactamente las entidades JPA que ya existen en el backend
 (`src/main/java/com/alertasegura/backend/model/`: `Usuario`, `Categoria`,
-`Reporte`), para que cuando el Willian conecte la BD real
+`Reporte`), para que cuando  Willian conecte la BD real
 en el Sprint 2, el análisis migre sin fricción de CSV a datos reales con
 los mismos nombres de columna y tipos.
 
@@ -109,11 +109,11 @@ así que se puede correr sin activar el venv.
 ## Correr el dashboard (Sprint 4)
 
 ```bash
-# primero corre notebooks/04_zonas_riesgo_kmeans.ipynb una vez para generar
+# primero corran notebooks/04_zonas_riesgo_kmeans.ipynb una vez para generar
 # data/reportes_con_zonas.csv (ya viene generado, no es obligatorio)
 python scripts/dashboard_app.py
 ```
 
-Abre `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
+y abren  `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
 distrito y estado, KPIs arriba, mapa con las zonas de riesgo del KMeans, y
 gráficos de reportes por distrito/categoría.
