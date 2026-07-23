@@ -1,0 +1,121 @@
+id,usuario_id,categoria,descripcion,latitud,longitud,distrito,estado,created_at
+1,22,Bache,Pista deteriorada genera accidentes,-12.222394,-76.92803,Villa El Salvador,PENDIENTE,2026-05-14 01:06:00
+2,39,Bache,Hueco profundo sin señalizar,-11.977605,-77.084275,San Martín de Porres,VERIFICADO,2026-06-18 01:18:00
+3,24,Acoso,Un sujeto acosó a una mujer en la vereda,-11.964809,-77.079884,Los Olivos,VERIFICADO,2026-05-30 20:05:00
+4,25,Bache,Hueco profundo sin señalizar,-12.043686,-77.045503,Cercado de Lima,PENDIENTE,2026-06-17 05:42:00
+5,5,Acoso,Acoso a estudiantes cerca del colegio,-12.157617,-76.974004,San Juan de Miraflores,VERIFICADO,2026-06-29 06:59:00
+6,15,Bache,Hueco profundo sin señalizar,-11.987619,-77.094358,San Martín de Porres,PENDIENTE,2026-06-10 07:04:00
+7,21,Extorsión,Cobro de cupo a transportista,-12.058187,-77.109809,Callao,PENDIENTE,2026-06-28 02:08:00
+8,35,Bache,Bache grande en plena avenida,-12.057844,-77.021712,La Victoria,VERIFICADO,2026-05-29 23:08:00
+9,4,Robo,Robaron una tienda cerca de mi casa,-12.214151,-76.927458,Villa El Salvador,PENDIENTE,2026-06-24 16:24:00
+10,34,Bache,Hueco profundo sin señalizar,-12.021684,-77.04197,Rímac,VERIFICADO,2026-05-15 19:34:00
+11,22,Robo,Sustrajeron mi celular en la calle,-12.176305,-77.021726,Chorrillos,PENDIENTE,2026-06-03 23:48:00
+12,20,Acoso,Un sujeto acosó a una mujer en la vereda,-11.975843,-77.06555,Los Olivos,VERIFICADO,2026-07-09 23:59:00
+13,39,Bache,Bache grande en plena avenida,-12.06571,-77.109518,Callao,VERIFICADO,2026-06-09 03:15:00
+14,6,Alumbrado deficiente,Poste sin luz hace varias semanas,-12.02374,-76.916046,Ate,RECHAZADO,2026-05-17 01:30:00
+15,17,Acoso,Acoso a estudiantes cerca del colegio,-12.056513,-77.011122,La Victoria,RECHAZADO,2026-05-26 19:25:00
+16,24,Alumbrado deficiente,Farol malogrado en el parque,-11.99177,-77.055042,Independencia,VERIFICADO,2026-05-09 04:37:00
+17,15,Robo,Me quitaron la mochila en el paradero,-12.029143,-76.925523,Ate,PENDIENTE,2026-05-09 22:55:00
+18,16,Bache,Pista deteriorada genera accidentes,-12.061815,-77.125454,Callao,VERIFICADO,2026-07-13 15:15:00
+19,13,Robo,Me quitaron la mochila en el paradero,-11.93262,-77.048714,Comas,PENDIENTE,2026-06-22 10:46:00
+20,7,Robo,Sustrajeron mi celular en la calle,-12.116536,-77.023988,Miraflores,VERIFICADO,2026-05-14 03:12:00
+21,28,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-11.867947,-77.06891,Puente Piedra,VERIFICADO,2026-05-10 09:55:00
+22,4,Acoso,Comentarios y seguimiento a una persona en la calle,-11.96452,-76.998873,San Juan de Lurigancho,PENDIENTE,2026-05-31 02:31:00
+23,4,Extorsión,Cobro de cupo a transportista,-12.131057,-77.032192,Miraflores,RECHAZADO,2026-06-28 04:44:00
+24,32,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-11.972966,-77.061426,Los Olivos,VERIFICADO,2026-07-14 20:03:00
+25,4,Acoso,Un sujeto acosó a una mujer en la vereda,-12.056043,-77.111046,Callao,PENDIENTE,2026-05-21 00:32:00
+26,5,Acoso,Acoso a estudiantes cerca del colegio,-12.029796,-76.921996,Ate,PENDIENTE,2026-05-16 23:36:00
+27,3,Acoso,Acoso a estudiantes cerca del colegio,-12.034916,-76.915027,Ate,PENDIENTE,2026-07-06 04:16:00
+28,21,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-11.869284,-77.072966,Puente Piedra,VERIFICADO,2026-06-08 10:59:00
+29,1,Alumbrado deficiente,Poste sin luz hace varias semanas,-11.944335,-77.051537,Comas,VERIFICADO,2026-06-03 01:22:00
+30,24,Bache,Bache grande en plena avenida,-12.159536,-76.968036,San Juan de Miraflores,VERIFICADO,2026-06-08 16:51:00
+31,36,Bache,Pista deteriorada genera accidentes,-11.927021,-77.053114,Comas,VERIFICADO,2026-05-15 22:47:00
+32,19,Acoso,Un sujeto acosó a una mujer en la vereda,-11.964548,-77.076728,Los Olivos,PENDIENTE,2026-07-21 21:32:00
+33,6,Alumbrado deficiente,Cuadra completamente oscura de noche,-11.876318,-77.079729,Puente Piedra,PENDIENTE,2026-05-17 18:16:00
+34,36,Alumbrado deficiente,Farol malogrado en el parque,-12.038707,-77.040695,Rímac,PENDIENTE,2026-05-20 14:53:00
+35,10,Alumbrado deficiente,Farol malogrado en el parque,-12.225863,-76.936007,Villa El Salvador,VERIFICADO,2026-05-06 22:13:00
+36,7,Bache,Bache grande en plena avenida,-12.021217,-77.034072,Rímac,RECHAZADO,2026-07-19 20:59:00
+37,12,Alumbrado deficiente,Poste sin luz hace varias semanas,-11.980313,-76.99891,San Juan de Lurigancho,VERIFICADO,2026-06-22 21:55:00
+38,18,Extorsión,Amenaza a comerciante local,-11.938149,-77.055026,Comas,RECHAZADO,2026-06-30 03:52:00
+39,20,Extorsión,Amenaza a comerciante local,-12.170627,-76.941137,Villa María del Triunfo,RECHAZADO,2026-06-12 04:04:00
+40,23,Acoso,Comentarios y seguimiento a una persona en la calle,-12.11751,-77.023127,Miraflores,VERIFICADO,2026-06-12 23:07:00
+41,12,Acoso,Acoso a estudiantes cerca del colegio,-11.876435,-77.074469,Puente Piedra,PENDIENTE,2026-06-14 20:20:00
+42,8,Alumbrado deficiente,Farol malogrado en el parque,-11.973806,-77.066624,Los Olivos,VERIFICADO,2026-05-01 12:51:00
+43,13,Bache,Hueco profundo sin señalizar,-12.074401,-77.016415,La Victoria,VERIFICADO,2026-06-12 17:42:00
+44,20,Acoso,Comentarios y seguimiento a una persona en la calle,-12.171662,-77.024276,Chorrillos,PENDIENTE,2026-06-07 14:12:00
+45,12,Acoso,Acoso a estudiantes cerca del colegio,-12.176878,-77.014125,Chorrillos,VERIFICADO,2026-06-08 04:27:00
+46,21,Alumbrado deficiente,Farol malogrado en el parque,-12.047557,-77.048526,Cercado de Lima,VERIFICADO,2026-06-30 20:50:00
+47,6,Bache,Pista deteriorada genera accidentes,-11.987523,-77.047615,Independencia,PENDIENTE,2026-05-12 21:48:00
+48,15,Extorsión,Amenaza a comerciante local,-12.226211,-76.938403,Villa El Salvador,PENDIENTE,2026-06-30 16:49:00
+49,37,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-12.121212,-77.03512,Miraflores,VERIFICADO,2026-07-23 19:57:00
+50,28,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-12.152218,-76.964982,San Juan de Miraflores,RECHAZADO,2026-06-29 00:15:00
+51,30,Extorsión,Cobro de cupo a transportista,-12.043048,-77.033042,Cercado de Lima,VERIFICADO,2026-07-16 04:48:00
+52,33,Alumbrado deficiente,Farol malogrado en el parque,-12.029982,-77.039017,Rímac,PENDIENTE,2026-06-30 09:48:00
+53,18,Acoso,Comentarios y seguimiento a una persona en la calle,-12.053565,-77.122608,Callao,PENDIENTE,2026-05-10 19:15:00
+54,35,Robo,Robaron una tienda cerca de mi casa,-12.223683,-76.935639,Villa El Salvador,PENDIENTE,2026-05-20 19:04:00
+55,35,Alumbrado deficiente,Poste sin luz hace varias semanas,-12.074555,-77.013042,La Victoria,RECHAZADO,2026-06-19 22:37:00
+56,37,Alumbrado deficiente,Farol malogrado en el parque,-12.065982,-77.121065,Callao,PENDIENTE,2026-06-19 21:53:00
+57,35,Acoso,Comentarios y seguimiento a una persona en la calle,-12.161335,-76.939541,Villa María del Triunfo,VERIFICADO,2026-07-02 00:21:00
+58,11,Alumbrado deficiente,Farol malogrado en el parque,-12.207086,-76.932618,Villa El Salvador,PENDIENTE,2026-06-20 16:42:00
+59,28,Extorsión,Amenaza a comerciante local,-12.052765,-77.047597,Cercado de Lima,PENDIENTE,2026-06-11 03:20:00
+60,18,Alumbrado deficiente,Poste sin luz hace varias semanas,-11.860502,-77.076994,Puente Piedra,PENDIENTE,2026-07-09 00:22:00
+61,3,Robo,Me quitaron la mochila en el paradero,-12.167113,-76.944592,Villa María del Triunfo,VERIFICADO,2026-05-20 03:30:00
+62,14,Alumbrado deficiente,Poste sin luz hace varias semanas,-11.861862,-77.083044,Puente Piedra,PENDIENTE,2026-07-17 23:45:00
+63,20,Robo,Me quitaron la mochila en el paradero,-11.965322,-77.005884,San Juan de Lurigancho,PENDIENTE,2026-06-18 07:45:00
+64,16,Robo,Robaron una tienda cerca de mi casa,-12.167994,-77.018792,Chorrillos,VERIFICADO,2026-05-16 21:36:00
+65,35,Alumbrado deficiente,Cuadra completamente oscura de noche,-12.105021,-77.032049,San Isidro,PENDIENTE,2026-05-02 21:52:00
+66,24,Alumbrado deficiente,Cuadra completamente oscura de noche,-12.21799,-76.928624,Villa El Salvador,RECHAZADO,2026-07-23 03:51:00
+67,30,Alumbrado deficiente,Cuadra completamente oscura de noche,-11.870754,-77.08149,Puente Piedra,PENDIENTE,2026-05-12 04:28:00
+68,37,Acoso,Comentarios y seguimiento a una persona en la calle,-12.124372,-77.030114,Miraflores,PENDIENTE,2026-06-11 02:13:00
+69,22,Bache,Hueco profundo sin señalizar,-11.866084,-77.076067,Puente Piedra,PENDIENTE,2026-05-25 01:46:00
+70,16,Alumbrado deficiente,Farol malogrado en el parque,-12.057137,-77.127755,Callao,PENDIENTE,2026-06-07 03:44:00
+71,38,Bache,Pista deteriorada genera accidentes,-12.055031,-77.121225,Callao,PENDIENTE,2026-07-10 04:44:00
+72,17,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-11.931374,-77.049489,Comas,PENDIENTE,2026-07-08 23:44:00
+73,31,Bache,Bache grande en plena avenida,-11.988864,-77.04039,Independencia,PENDIENTE,2026-05-25 04:23:00
+74,35,Extorsión,Amenaza a comerciante local,-11.87629,-77.085309,Puente Piedra,VERIFICADO,2026-06-07 19:08:00
+75,7,Robo,Robaron una tienda cerca de mi casa,-12.175612,-77.021991,Chorrillos,RECHAZADO,2026-05-24 23:16:00
+76,8,Robo,Robaron una tienda cerca de mi casa,-12.121265,-77.02846,Miraflores,VERIFICADO,2026-05-07 02:51:00
+77,6,Extorsión,Amenaza a comerciante local,-11.934639,-77.047477,Comas,VERIFICADO,2026-07-16 20:14:00
+78,29,Alumbrado deficiente,Farol malogrado en el parque,-12.167797,-77.010999,Chorrillos,VERIFICADO,2026-06-09 15:03:00
+79,7,Extorsión,Amenaza a comerciante local,-11.973607,-77.079176,Los Olivos,PENDIENTE,2026-05-31 02:04:00
+80,29,Acoso,Un sujeto acosó a una mujer en la vereda,-12.060275,-77.12347,Callao,PENDIENTE,2026-06-06 19:29:00
+81,17,Acoso,Un sujeto acosó a una mujer en la vereda,-11.970397,-77.069909,Los Olivos,VERIFICADO,2026-07-22 02:17:00
+82,4,Extorsión,Cobro de cupo a transportista,-12.173099,-77.014315,Chorrillos,VERIFICADO,2026-06-06 09:29:00
+83,26,Bache,Hueco profundo sin señalizar,-11.99,-77.051245,Independencia,VERIFICADO,2026-07-16 00:27:00
+84,17,Robo,Me quitaron la mochila en el paradero,-12.038722,-76.913214,Ate,RECHAZADO,2026-07-13 15:01:00
+85,18,Acoso,Acoso a estudiantes cerca del colegio,-11.976938,-77.091496,San Martín de Porres,PENDIENTE,2026-07-06 18:58:00
+86,28,Alumbrado deficiente,Cuadra completamente oscura de noche,-12.0339,-76.918533,Ate,PENDIENTE,2026-06-11 19:54:00
+87,32,Bache,Pista deteriorada genera accidentes,-12.114829,-77.028998,Miraflores,PENDIENTE,2026-06-28 01:16:00
+88,33,Robo,Robaron una tienda cerca de mi casa,-12.02966,-77.041116,Rímac,PENDIENTE,2026-07-06 05:48:00
+89,4,Extorsión,Cobro de cupo a transportista,-11.866216,-77.067847,Puente Piedra,PENDIENTE,2026-06-26 22:31:00
+90,39,Extorsión,Amenaza a comerciante local,-12.162085,-76.978627,San Juan de Miraflores,RECHAZADO,2026-06-22 01:53:00
+91,8,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-12.047447,-77.122263,Callao,RECHAZADO,2026-06-04 08:30:00
+92,30,Acoso,Comentarios y seguimiento a una persona en la calle,-12.219028,-76.924863,Villa El Salvador,VERIFICADO,2026-07-05 20:08:00
+93,27,Bache,Pista deteriorada genera accidentes,-11.995457,-77.059949,Independencia,RECHAZADO,2026-06-08 21:37:00
+94,10,Alumbrado deficiente,Poste sin luz hace varias semanas,-12.029213,-77.035551,Rímac,PENDIENTE,2026-07-09 06:59:00
+95,16,Acoso,Comentarios y seguimiento a una persona en la calle,-12.126429,-77.024489,Miraflores,VERIFICADO,2026-05-06 04:30:00
+96,25,Extorsión,Amenaza a comerciante local,-12.046804,-77.125575,Callao,VERIFICADO,2026-07-15 04:06:00
+97,7,Acoso,Comentarios y seguimiento a una persona en la calle,-12.056093,-77.049917,Cercado de Lima,PENDIENTE,2026-07-23 23:04:00
+98,22,Acoso,Comentarios y seguimiento a una persona en la calle,-12.118103,-77.022965,Miraflores,VERIFICADO,2026-07-08 06:20:00
+99,35,Robo,Sustrajeron mi celular en la calle,-12.038605,-76.913012,Ate,PENDIENTE,2026-06-06 23:47:00
+100,7,Alumbrado deficiente,Cuadra completamente oscura de noche,-12.15442,-76.960832,San Juan de Miraflores,PENDIENTE,2026-05-06 04:03:00
+101,28,Extorsión,Amenaza a comerciante local,-12.160477,-76.933681,Villa María del Triunfo,VERIFICADO,2026-05-24 02:05:00
+102,40,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-12.047843,-77.125238,Callao,PENDIENTE,2026-06-29 18:29:00
+103,30,Bache,Pista deteriorada genera accidentes,-12.03574,-77.033365,Rímac,VERIFICADO,2026-06-14 23:19:00
+104,17,Alumbrado deficiente,Farol malogrado en el parque,-12.181016,-77.023106,Chorrillos,VERIFICADO,2026-07-01 01:24:00
+105,19,Bache,Hueco profundo sin señalizar,-11.964341,-77.004235,San Juan de Lurigancho,VERIFICADO,2026-06-05 00:55:00
+106,4,Acoso,Un sujeto acosó a una mujer en la vereda,-12.049443,-77.110041,Callao,PENDIENTE,2026-05-30 16:22:00
+107,40,Bache,Hueco profundo sin señalizar,-12.214135,-76.925232,Villa El Salvador,PENDIENTE,2026-07-22 00:50:00
+108,24,Extorsión,Amenaza a comerciante local,-12.025107,-76.920166,Ate,VERIFICADO,2026-06-23 02:08:00
+109,34,Acoso,Comentarios y seguimiento a una persona en la calle,-11.860591,-77.081261,Puente Piedra,VERIFICADO,2026-07-01 23:18:00
+110,8,Alumbrado deficiente,Poste sin luz hace varias semanas,-12.040485,-76.90737,Ate,VERIFICADO,2026-06-20 23:51:00
+111,26,Robo,Robaron una tienda cerca de mi casa,-11.866469,-77.077304,Puente Piedra,VERIFICADO,2026-06-03 15:52:00
+112,7,Extorsión,Llamada exigiendo pago a cambio de 'seguridad',-12.0656,-77.110415,Callao,PENDIENTE,2026-07-11 04:39:00
+113,30,Bache,Bache grande en plena avenida,-12.073466,-77.028793,La Victoria,PENDIENTE,2026-05-05 04:31:00
+114,35,Extorsión,Amenaza a comerciante local,-12.122027,-77.02659,Miraflores,VERIFICADO,2026-07-09 08:47:00
+115,7,Alumbrado deficiente,Cuadra completamente oscura de noche,-12.057019,-77.024105,La Victoria,RECHAZADO,2026-06-17 03:28:00
+116,7,Bache,Pista deteriorada genera accidentes,-12.020866,-77.029303,Rímac,RECHAZADO,2026-05-08 07:12:00
+117,6,Extorsión,Cobro de cupo a transportista,-11.982888,-77.01073,San Juan de Lurigancho,PENDIENTE,2026-05-17 20:13:00
+118,14,Acoso,Un sujeto acosó a una mujer en la vereda,-11.962639,-77.07614,Los Olivos,PENDIENTE,2026-05-19 20:38:00
+119,9,Acoso,Un sujeto acosó a una mujer en la vereda,-11.86123,-77.084201,Puente Piedra,VERIFICADO,2026-05-04 01:22:00
+120,38,Bache,Pista deteriorada genera accidentes,-11.980415,-77.016352,San Juan de Lurigancho,PENDIENTE,2026-06-23 13:47:00
