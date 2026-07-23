@@ -1,0 +1,19 @@
+distrito,n_reportes,poblacion,anio_dato,fuente,tasa_por_10k_hab
+San Isidro,10,60735,2017,Censo INEI 2017,1.6464970774676875
+Rímac,20,184082,2024,"INEI (aniversario del Rímac, cuenta oficial INEI)",1.0864723329820405
+Miraflores,7,81932,2015,INEI (dato más reciente disponible en fuentes consultadas),0.8543670360786993
+Independencia,14,223085,2020,INEI,0.6275634847703789
+Cercado de Lima,17,271814,2015,INEI (dato más reciente disponible en fuentes consultadas),0.6254276821650099
+La Victoria,10,171779,2015,INEI (dato más reciente disponible en fuentes consultadas),0.5821433353320254
+Villa El Salvador,23,447200,2024,INEI (estimado a partir de 4.3% de la población de Lima),0.5143112701252236
+Chorrillos,13,351582,2020,Municipalidad de Chorrillos / INEI,0.36975726857461416
+Villa María del Triunfo,14,457600,2024,INEI (estimado a partir de 4.4% de la población de Lima),0.30594405594405594
+Comas,18,603200,2024,INEI (estimado a partir de 5.8% de la población de Lima),0.2984084880636605
+San Martín de Porres,19,800800,2024,INEI (estimado a partir de 7.7% de la población de Lima),0.23726273726273725
+Puente Piedra,10,436800,2024,INEI (estimado a partir de 4.2% de la población de Lima),0.22893772893772893
+Los Olivos,8,392000,2023,Proyección INEI,0.20408163265306123
+Callao,7,406760,2023,"INEI (Cercado del Callao, 39.6% de la Provincia Constitucional del Callao)",0.17209165109646968
+San Juan de Miraflores,7,433709,2024,INEI (aniversario de Lima 2024),0.16139854141832427
+Surco,6,437028,2024,INEI (aniversario de Lima 2024),0.13729097449133695
+Ate,7,738400,2024,INEI (estimado a partir de 7.1% de la población de Lima),0.09479956663055256
+San Juan de Lurigancho,10,1264060,2024,INEI (El Comercio / Gestión - aniversario de Lima 2024),0.07911016882110027

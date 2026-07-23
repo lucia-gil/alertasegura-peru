@@ -23,6 +23,7 @@ avance del **Sprint 1**.
 
 - [x] Modelo de zonas de riesgo (KMeans) → [`notebooks/04_zonas_riesgo_kmeans.ipynb`](./notebooks/04_zonas_riesgo_kmeans.ipynb)
 - [x] Dashboard interactivo (Plotly Dash) → [`scripts/dashboard_app.py`](./scripts/dashboard_app.py)
+- [x] Opcional: cruce con datos públicos reales (INEI) → [`notebooks/05_cruce_datos_inei.ipynb`](./notebooks/05_cruce_datos_inei.ipynb)
 
 ## Estructura
 
@@ -44,12 +45,15 @@ data-analysis/
 │   ├── reportes_sucios.csv       # dataset con problemas inyectados (testing)
 │   ├── reportes_limpios.csv      # salida del pipeline de limpieza (Sprint 2)
 │   ├── reportes_con_zonas.csv    # reportes + zona de riesgo asignada por KMeans (Sprint 4)
-│   └── resumen_zonas_riesgo.csv  # resumen por zona: n° reportes, puntaje, distrito/categoría principal
+│   ├── resumen_zonas_riesgo.csv  # resumen por zona: n° reportes, puntaje, distrito/categoría principal
+│   ├── poblacion_distritos_lima.csv  # población real por distrito (INEI, con fuente citada)
+│   └── reportes_vs_poblacion.csv     # reportes crudos vs. tasa por cada 10k habitantes
 └── notebooks/
     ├── 01_exploracion_inicial.ipynb
     ├── 02_limpieza_y_estadisticas.ipynb
     ├── 03_graficos_sprint3.ipynb
-    └── 04_zonas_riesgo_kmeans.ipynb
+    ├── 04_zonas_riesgo_kmeans.ipynb
+    └── 05_cruce_datos_inei.ipynb
 ```
 
 Nota: `reportes_sucios.csv`/`reportes_limpios.csv` quedaron generados sobre
@@ -77,7 +81,7 @@ jupyter notebook notebooks/01_exploracion_inicial.ipynb
 
 ## Regenerar el dataset sintético
 
-El CSV ya está generado y commiteado, pero si quieren regenerarlo (más
+El CSV ya está generado y commiteado, pero si quieres regenerarlo (más
 registros, otra semilla, etc.):
 
 ```bash
@@ -90,13 +94,11 @@ así que se puede correr sin activar el venv.
 ## Correr el dashboard (Sprint 4)
 
 ```bash
-# primero corren notebooks/04_zonas_riesgo_kmeans.ipynb una vez para generar
+# primero corre notebooks/04_zonas_riesgo_kmeans.ipynb una vez para generar
 # data/reportes_con_zonas.csv (ya viene generado, no es obligatorio)
 python scripts/dashboard_app.py
 ```
 
-Abren `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
+Abre `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
 distrito y estado, KPIs arriba, mapa con las zonas de riesgo del KMeans, y
 gráficos de reportes por distrito/categoría.
-
-<img width="1782" height="957" alt="dashboard_datos" src="https://github.com/user-attachments/assets/6f159ffb-3bcf-4bac-ba3d-7da6e3de8fd5" />
