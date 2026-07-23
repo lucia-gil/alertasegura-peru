@@ -43,7 +43,7 @@ public class RateLimitFilter extends OncePerRequestFilter {
 
             if (!bucket.tryConsume(1)) {
                 response.setStatus(429); // Too Many Requests
-                response.setContentType("application/json;charset=UTF-8");
+                response.setContentType("application/json;charset=UTF-8"); //cambiado para que muestre las tildes
                 response.getWriter().write("{\"error\":\"Demasiadas solicitudes, intenta más tarde\"}");
                 return;
             }
