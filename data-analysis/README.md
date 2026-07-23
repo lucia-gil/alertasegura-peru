@@ -1,8 +1,5 @@
 # Data Analysis — AlertaSegura Perú
 
-Parte de Data Analysis del proyecto. Este README cubre el setup y el
-avance del **Sprint 1**.
-
 ## Sprint 1 — checklist
 
 - [x] Definición de qué campos/métricas se van a analizar → [`fields_and_metrics.md`](./fields_and_metrics.md)
