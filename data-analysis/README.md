@@ -77,7 +77,7 @@ jupyter notebook notebooks/01_exploracion_inicial.ipynb
 
 ## Regenerar el dataset sintético
 
-El CSV ya está generado y commiteado, pero si quieres regenerarlo (más
+El CSV ya está generado y commiteado, pero si quieren regenerarlo (más
 registros, otra semilla, etc.):
 
 ```bash
@@ -90,11 +90,11 @@ así que se puede correr sin activar el venv.
 ## Correr el dashboard (Sprint 4)
 
 ```bash
-# primero corre notebooks/04_zonas_riesgo_kmeans.ipynb una vez para generar
+# primero corren notebooks/04_zonas_riesgo_kmeans.ipynb una vez para generar
 # data/reportes_con_zonas.csv (ya viene generado, no es obligatorio)
 python scripts/dashboard_app.py
 ```
 
-Abre `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
+Abren `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
 distrito y estado, KPIs arriba, mapa con las zonas de riesgo del KMeans, y
 gráficos de reportes por distrito/categoría.
