@@ -98,3 +98,5 @@ python scripts/dashboard_app.py
 Abren `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
 distrito y estado, KPIs arriba, mapa con las zonas de riesgo del KMeans, y
 gráficos de reportes por distrito/categoría.
+
+<img width="1782" height="957" alt="dashboard_datos" src="https://github.com/user-attachments/assets/6f159ffb-3bcf-4bac-ba3d-7da6e3de8fd5" />
