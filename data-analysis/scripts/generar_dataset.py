@@ -38,16 +38,13 @@ DISTRITOS = {
     "Rímac": (-12.0289, -77.0322),
 }
 
-# --- Categorías de incidente (coinciden con la tabla `categorias`) ---
+# --- Categorías de incidente: EXACTAS a las ya insertadas en la tabla `categorias` real (ids 1-5) ---
 CATEGORIAS = [
-    ("Robo", "Sustracción de bienes con o sin violencia"),
-    ("Asalto", "Robo con uso de violencia o amenaza"),
-    ("Acoso callejero", "Acoso verbal o físico en la vía pública"),
-    ("Accidente de tránsito", "Choques, atropellos u otros incidentes viales"),
-    ("Vandalismo", "Daño a propiedad pública o privada"),
-    ("Alumbrado público deficiente", "Zonas sin iluminación adecuada"),
-    ("Pandillaje", "Presencia de grupos con comportamiento hostil"),
-    ("Extorsión", "Amenazas para exigir dinero o favores"),
+    ("Robo", "Robo o asalto a mano armada"),
+    ("Extorsión", "Amenazas o cobro de cupos"),
+    ("Bache", "Deterioro de la vía pública"),
+    ("Alumbrado deficiente", "Falta o falla de luminarias públicas"),
+    ("Acoso", "Acoso callejero o similar"),
 ]
 
 ESTADOS = ["PENDIENTE", "VERIFICADO", "RECHAZADO"]
@@ -55,13 +52,10 @@ ESTADO_PESOS = [0.5, 0.4, 0.1]
 
 DESCRIPCIONES = {
     "Robo": ["Sustrajeron mi celular en la calle", "Robaron una tienda cerca de mi casa", "Me quitaron la mochila en el paradero"],
-    "Asalto": ["Me asaltaron con arma blanca", "Asalto a mano armada frente al parque", "Sujetos armados asaltaron a un vecino"],
-    "Acoso callejero": ["Un sujeto acosó a una mujer en la vereda", "Comentarios y seguimiento a una persona en la calle"],
-    "Accidente de tránsito": ["Choque entre dos vehículos en la avenida", "Atropello a un peatón en el cruce", "Auto impactó un poste"],
-    "Vandalismo": ["Pintas en la fachada de un local", "Rotura de vidrios de un negocio", "Daño a mobiliario urbano"],
-    "Alumbrado público deficiente": ["Poste sin luz hace varias semanas", "Cuadra completamente oscura de noche"],
-    "Pandillaje": ["Grupo de jóvenes generando disturbios", "Pandilla merodeando el parque por las noches"],
-    "Extorsión": ["Llamada exigiendo pago a cambio de 'seguridad'", "Amenaza a comerciante local"],
+    "Extorsión": ["Llamada exigiendo pago a cambio de 'seguridad'", "Amenaza a comerciante local", "Cobro de cupo a transportista"],
+    "Bache": ["Bache grande en plena avenida", "Pista deteriorada genera accidentes", "Hueco profundo sin señalizar"],
+    "Alumbrado deficiente": ["Poste sin luz hace varias semanas", "Cuadra completamente oscura de noche", "Farol malogrado en el parque"],
+    "Acoso": ["Un sujeto acosó a una mujer en la vereda", "Comentarios y seguimiento a una persona en la calle", "Acoso a estudiantes cerca del colegio"],
 }
 
 N_USUARIOS = 40

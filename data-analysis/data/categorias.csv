@@ -1,9 +1,6 @@
 id,nombre,descripcion
-1,Robo,Sustracción de bienes con o sin violencia
-2,Asalto,Robo con uso de violencia o amenaza
-3,Acoso callejero,Acoso verbal o físico en la vía pública
-4,Accidente de tránsito,"Choques, atropellos u otros incidentes viales"
-5,Vandalismo,Daño a propiedad pública o privada
-6,Alumbrado público deficiente,Zonas sin iluminación adecuada
-7,Pandillaje,Presencia de grupos con comportamiento hostil
-8,Extorsión,Amenazas para exigir dinero o favores
+1,Robo,Robo o asalto a mano armada
+2,Extorsión,Amenazas o cobro de cupos
+3,Bache,Deterioro de la vía pública
+4,Alumbrado deficiente,Falta o falla de luminarias públicas
+5,Acoso,Acoso callejero o similar
