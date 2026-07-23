@@ -9,21 +9,31 @@ avance del **Sprint 1**.
 - [x] Dataset sintético inicial (CSV con reportes ficticios) → [`data/reportes_sinteticos.csv`](./data/reportes_sinteticos.csv)
 - [x] Entorno de análisis listo (notebook + librerías) → [`notebooks/01_exploracion_inicial.ipynb`](./notebooks/01_exploracion_inicial.ipynb)
 
+## Sprint 2 — checklist
+
+- [x] Script de limpieza de datos (nulos, duplicados, formatos) → [`scripts/limpieza_datos.py`](./scripts/limpieza_datos.py)
+- [x] Primeras estadísticas descriptivas → [`notebooks/02_limpieza_y_estadisticas.ipynb`](./notebooks/02_limpieza_y_estadisticas.ipynb)
+
 ## Estructura
 
 ```
 data-analysis/
 ├── README.md
 ├── requirements.txt
-├── fields_and_metrics.md       # qué campos/métricas se analizan y por qué
+├── fields_and_metrics.md         # qué campos/métricas se analizan y por qué
 ├── scripts/
-│   └── generar_dataset.py      # genera el CSV sintético (reproducible, seed fija)
+│   ├── generar_dataset.py        # genera el CSV sintético (reproducible, seed fija)
+│   ├── ensuciar_dataset.py       # genera una versión "sucia" para probar la limpieza
+│   └── limpieza_datos.py         # pipeline de limpieza (nulos, duplicados, formatos)
 ├── data/
 │   ├── usuarios.csv
 │   ├── categorias.csv
-│   └── reportes_sinteticos.csv # dataset principal para el análisis
+│   ├── reportes_sinteticos.csv   # dataset principal (Sprint 1)
+│   ├── reportes_sucios.csv       # dataset con problemas inyectados (testing)
+│   └── reportes_limpios.csv      # salida del pipeline de limpieza (Sprint 2)
 └── notebooks/
-    └── 01_exploracion_inicial.ipynb
+    ├── 01_exploracion_inicial.ipynb
+    └── 02_limpieza_y_estadisticas.ipynb
 ```
 
 ## Por qué este esquema
