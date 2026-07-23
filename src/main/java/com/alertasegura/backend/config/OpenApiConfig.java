@@ -5,7 +5,7 @@ import io.swagger.v3.oas.models.info.Info;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 //Entrar a: http://localhost:8080/swagger-ui/index.html
-//
+// http://localhost:8080/swagger-ui.html
 @Configuration
 public class OpenApiConfig {
 
