@@ -19,6 +19,11 @@ avance del **Sprint 1**.
 - [x] Dataset más realista (220 registros, con perfil de riesgo por distrito y "hotspots" de problemas recurrentes) → [`data/reportes_sinteticos.csv`](./data/reportes_sinteticos.csv)
 - [x] Primeros gráficos: reportes por distrito y por tipo de incidente → [`notebooks/03_graficos_sprint3.ipynb`](./notebooks/03_graficos_sprint3.ipynb)
 
+## Sprint 4 — checklist
+
+- [x] Modelo de zonas de riesgo (KMeans) → [`notebooks/04_zonas_riesgo_kmeans.ipynb`](./notebooks/04_zonas_riesgo_kmeans.ipynb)
+- [x] Dashboard interactivo (Plotly Dash) → [`scripts/dashboard_app.py`](./scripts/dashboard_app.py)
+
 ## Estructura
 
 ```
@@ -29,17 +34,22 @@ data-analysis/
 ├── scripts/
 │   ├── generar_dataset.py        # genera el CSV sintético (reproducible, seed fija)
 │   ├── ensuciar_dataset.py       # genera una versión "sucia" para probar la limpieza
-│   └── limpieza_datos.py         # pipeline de limpieza (nulos, duplicados, formatos)
+│   ├── limpieza_datos.py         # pipeline de limpieza (nulos, duplicados, formatos)
+│   ├── dashboard_app.py          # dashboard interactivo (Plotly Dash)
+│   └── assets/style.css          # estilos del dashboard
 ├── data/
 │   ├── usuarios.csv
 │   ├── categorias.csv
-│   ├── reportes_sinteticos.csv   # dataset principal (Sprint 1)
+│   ├── reportes_sinteticos.csv   # dataset principal (Sprint 1/3)
 │   ├── reportes_sucios.csv       # dataset con problemas inyectados (testing)
-│   └── reportes_limpios.csv      # salida del pipeline de limpieza (Sprint 2)
+│   ├── reportes_limpios.csv      # salida del pipeline de limpieza (Sprint 2)
+│   ├── reportes_con_zonas.csv    # reportes + zona de riesgo asignada por KMeans (Sprint 4)
+│   └── resumen_zonas_riesgo.csv  # resumen por zona: n° reportes, puntaje, distrito/categoría principal
 └── notebooks/
     ├── 01_exploracion_inicial.ipynb
     ├── 02_limpieza_y_estadisticas.ipynb
-    └── 03_graficos_sprint3.ipynb
+    ├── 03_graficos_sprint3.ipynb
+    └── 04_zonas_riesgo_kmeans.ipynb
 ```
 
 Nota: `reportes_sucios.csv`/`reportes_limpios.csv` quedaron generados sobre
@@ -76,3 +86,15 @@ python3 scripts/generar_dataset.py
 
 No requiere librerías externas (usa solo la librería estándar de Python),
 así que se puede correr sin activar el venv.
+
+## Correr el dashboard (Sprint 4)
+
+```bash
+# primero corre notebooks/04_zonas_riesgo_kmeans.ipynb una vez para generar
+# data/reportes_con_zonas.csv (ya viene generado, no es obligatorio)
+python scripts/dashboard_app.py
+```
+
+Abre `http://127.0.0.1:8050` en el navegador. Tiene filtros por categoría,
+distrito y estado, KPIs arriba, mapa con las zonas de riesgo del KMeans, y
+gráficos de reportes por distrito/categoría.
