@@ -14,6 +14,11 @@ avance del **Sprint 1**.
 - [x] Script de limpieza de datos (nulos, duplicados, formatos) → [`scripts/limpieza_datos.py`](./scripts/limpieza_datos.py)
 - [x] Primeras estadísticas descriptivas → [`notebooks/02_limpieza_y_estadisticas.ipynb`](./notebooks/02_limpieza_y_estadisticas.ipynb)
 
+## Sprint 3 — checklist
+
+- [x] Dataset más realista (220 registros, con perfil de riesgo por distrito y "hotspots" de problemas recurrentes) → [`data/reportes_sinteticos.csv`](./data/reportes_sinteticos.csv)
+- [x] Primeros gráficos: reportes por distrito y por tipo de incidente → [`notebooks/03_graficos_sprint3.ipynb`](./notebooks/03_graficos_sprint3.ipynb)
+
 ## Estructura
 
 ```
@@ -33,8 +38,14 @@ data-analysis/
 │   └── reportes_limpios.csv      # salida del pipeline de limpieza (Sprint 2)
 └── notebooks/
     ├── 01_exploracion_inicial.ipynb
-    └── 02_limpieza_y_estadisticas.ipynb
+    ├── 02_limpieza_y_estadisticas.ipynb
+    └── 03_graficos_sprint3.ipynb
 ```
+
+Nota: `reportes_sucios.csv`/`reportes_limpios.csv` quedaron generados sobre
+la versión de 120 filas del dataset (Sprint 2); `reportes_sinteticos.csv`
+ahora tiene 220 filas (Sprint 3) — no afecta la lógica de limpieza, solo
+que si regeneras `reportes_sucios.csv` te va a salir con más filas.
 
 ## Por qué este esquema
 
