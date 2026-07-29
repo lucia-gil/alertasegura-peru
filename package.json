@@ -1,0 +1,9 @@
+{
+  "name": "seguridad",
+  "version": "1.0.0",
+  "description": "Tests de seguridad automatizados para AlertaSegura Peru",
+  "scripts": {
+    "test": "node tests_seguridad.js"
+  },
+  "license": "ISC"
+}
