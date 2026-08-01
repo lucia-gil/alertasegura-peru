@@ -1,0 +1,42 @@
+// Departamentos del Perú con coordenadas de su capital (para centrar el mapa)
+export const DEPARTAMENTOS_PERU = [
+    { nombre: 'Amazonas', capital: 'Chachapoyas', lat: -6.2298, lng: -77.8710, zoom: 12 },
+    { nombre: 'Áncash', capital: 'Huaraz', lat: -9.5277, lng: -77.5279, zoom: 12 },
+    { nombre: 'Apurímac', capital: 'Abancay', lat: -13.6339, lng: -72.8813, zoom: 12 },
+    { nombre: 'Arequipa', capital: 'Arequipa', lat: -16.4090, lng: -71.5375, zoom: 12 },
+    { nombre: 'Ayacucho', capital: 'Ayacucho', lat: -13.1588, lng: -74.2232, zoom: 12 },
+    { nombre: 'Cajamarca', capital: 'Cajamarca', lat: -7.1638, lng: -78.5003, zoom: 12 },
+    { nombre: 'Callao', capital: 'Callao', lat: -12.0566, lng: -77.1181, zoom: 12 },
+    { nombre: 'Cusco', capital: 'Cusco', lat: -13.5319, lng: -71.9675, zoom: 12 },
+    { nombre: 'Huancavelica', capital: 'Huancavelica', lat: -12.7869, lng: -74.9772, zoom: 12 },
+    { nombre: 'Huánuco', capital: 'Huánuco', lat: -9.9306, lng: -76.2422, zoom: 12 },
+    { nombre: 'Ica', capital: 'Ica', lat: -14.0678, lng: -75.7286, zoom: 12 },
+    { nombre: 'Junín', capital: 'Huancayo', lat: -12.0653, lng: -75.2049, zoom: 12 },
+    { nombre: 'La Libertad', capital: 'Trujillo', lat: -8.1116, lng: -79.0288, zoom: 12 },
+    { nombre: 'Lambayeque', capital: 'Chiclayo', lat: -6.7714, lng: -79.8409, zoom: 12 },
+    { nombre: 'Lima', capital: 'Lima', lat: -12.0464, lng: -77.0428, zoom: 11 },
+    { nombre: 'Loreto', capital: 'Iquitos', lat: -3.7437, lng: -73.2516, zoom: 12 },
+    { nombre: 'Madre de Dios', capital: 'Puerto Maldonado', lat: -12.5933, lng: -69.1891, zoom: 12 },
+    { nombre: 'Moquegua', capital: 'Moquegua', lat: -17.1938, lng: -70.9347, zoom: 12 },
+    { nombre: 'Pasco', capital: 'Cerro de Pasco', lat: -10.6858, lng: -76.2611, zoom: 12 },
+    { nombre: 'Piura', capital: 'Piura', lat: -5.1945, lng: -80.6328, zoom: 12 },
+    { nombre: 'Puno', capital: 'Puno', lat: -15.8402, lng: -70.0219, zoom: 12 },
+    { nombre: 'San Martín', capital: 'Moyobamba', lat: -6.0339, lng: -76.9714, zoom: 12 },
+    { nombre: 'Tacna', capital: 'Tacna', lat: -18.0146, lng: -70.2536, zoom: 12 },
+    { nombre: 'Tumbes', capital: 'Tumbes', lat: -3.5669, lng: -80.4515, zoom: 12 },
+    { nombre: 'Ucayali', capital: 'Pucallpa', lat: -8.3791, lng: -74.5539, zoom: 12 },
+];
+
+// Distritos con detalle completo solo para Lima Metropolitana
+export const DISTRITOS_LIMA = [
+    'Ate', 'Barranco', 'Breña', 'Carabayllo', 'Chaclacayo', 'Chorrillos',
+    'Cieneguilla', 'Comas', 'El Agustino', 'Independencia', 'Jesús María',
+    'La Molina', 'La Victoria', 'Lima Cercado', 'Lince', 'Los Olivos',
+    'Lurigancho', 'Lurín', 'Magdalena del Mar', 'Miraflores', 'Pachacámac',
+    'Pucusana', 'Pueblo Libre', 'Puente Piedra', 'Punta Hermosa',
+    'Punta Negra', 'Rímac', 'San Bartolo', 'San Borja', 'San Isidro',
+    'San Juan de Lurigancho', 'San Juan de Miraflores', 'San Luis',
+    'San Martín de Porres', 'San Miguel', 'Santa Anita', 'Santa María del Mar',
+    'Santa Rosa', 'Santiago de Surco', 'Surquillo', 'Villa El Salvador',
+    'Villa María del Triunfo',
+];
