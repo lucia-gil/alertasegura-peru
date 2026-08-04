@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ============================================================
+   AlertaSegura Perú — Sistema de diseño estilo Apple
+   - Nunca blanco puro (#fff) ni negro puro (#000): todo usa grises
+     tibios "off-white" / "off-black", como macOS/iOS.
+   - Tipografía del sistema (-apple-system activa SF Pro en Mac).
+   - Superficies con profundidad vía sombra + blur, no bordes duros.
+   ============================================================ */
+
+@theme {
+  --font-display: -apple-system, "SF Pro Display", "Inter", system-ui, sans-serif;
+  --font-sans: -apple-system, "SF Pro Text", "Inter", system-ui, sans-serif;
+
+  --color-marca-50: #f5f3ff;
+  --color-marca-100: #ede9fe;
+  --color-marca-200: #ddd6fe;
+  --color-marca-300: #c4b5fd;
+  --color-marca-400: #a78bfa;
+  --color-marca-500: #8b5cf6;
+  --color-marca-600: #7c3aed;
+  --color-marca-700: #6d28d9;
+  --color-marca-800: #5b21b6;
+  --color-marca-900: #4c1d95;
+
+  --color-acento-500: #f97316;
+  --color-acento-600: #ea580c;
+
+  --color-surface-0: #fafafa;
+  --color-surface-1: #f2f2f4;
+  --color-surface-2: #e8e8ec;
+
+  --color-surface-dark-0: #121214;
+  --color-surface-dark-1: #1c1c1f;
+  --color-surface-dark-2: #26262b;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-surface-0);
+  color: #1d1d1f;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.dark body {
+  background-color: var(--color-surface-dark-0);
+  color: #f2f2f3;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 140, 150, 0.35);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 140, 150, 0.55);
+}
+
+.leaflet-container {
+  font-family: var(--font-sans);
+  background: var(--color-surface-1);
+}
+.dark .leaflet-container {
+  background: var(--color-surface-dark-1);
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 14px;
+}
+.dark .leaflet-popup-content-wrapper,
+.dark .leaflet-popup-tip {
+  background: #26262b;
+  color: #f2f2f3;
+}
+.dark .leaflet-control-zoom a {
+  background: #26262b;
+  color: #f2f2f3;
+  border-color: #38383d;
+}
+
+.dark .leaflet-tile-pane {
+  filter: brightness(0.75) invert(1) contrast(0.9) hue-rotate(180deg) saturate(0.6);
+}

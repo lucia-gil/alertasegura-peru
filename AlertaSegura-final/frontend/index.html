@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AlertaSegura Perú — plataforma de reportes ciudadanos con análisis de riesgo por zona" />
+    <title>AlertaSegura Perú</title>
+    <script>
+      // Aplica el tema ANTES de que React monte, para evitar un parpadeo
+      // de claro->oscuro (u oscuro->claro) al recargar la pagina.
+      (function () {
+        var guardado = localStorage.getItem('theme');
+        var prefiereDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (guardado === 'dark' || (!guardado && prefiereDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
